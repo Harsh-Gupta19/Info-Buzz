@@ -1,7 +1,7 @@
 # Info-Buzz
 
-Welcome to the InfoBuzz web application which is developed by using Vite. 
-InfoBuzz is focused on retrieving the news fpr most popular articles from The New York Times like Trending, world, Sports etc.
+Welcome to the InfoBuzz web application which is developed by using React + Vite. 
+InfoBuzz is focused on retrieving the news for most popular articles from The New York Times like Trending, world, Sports etc.
 In order to run this application please follow below steps.
 
 

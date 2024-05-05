@@ -1,0 +1,22 @@
+{
+    "results": [
+      {
+        "id": 1,
+        "title": "Article 1",
+        "description": "Description of Article 1",
+        "media":[]
+      },
+      {
+        "id": 2,
+        "title": "Article 2",
+        "description": "Description of Article 2",
+        "media":[]
+      },
+      {
+        "id": 3,
+        "title": "Article 3",
+        "description": "Description of Article 3",
+        "media":[]
+      }
+    ]
+  }

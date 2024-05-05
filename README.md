@@ -6,10 +6,11 @@ In order to run this application please follow below steps.
 
 
 Application Run command:
-	First we have to run "npm install" command to install all node modules dependencies.
-	In the project we have "env.js" file located @ '/project/src/utils/env' path where we need to do the changes of key in order to get the news.
-	Open the Terminal Run "npm run dev" command in the terminal to run the build.
-	After the build is running we have to copy the url from Terminal like 'localhost:5173/' and run it on your browser.
+
+	* First we have to run "npm install" command to install all node modules dependencies.
+	* In the project we have "env.js" file located @ '/project/src/utils/env' path where we need to do the changes of key in order to get the news.
+	* Open the Terminal Run "npm run dev" command in the terminal to run the build.
+	* After the build is running we have to copy the url from Terminal like 'localhost:5173/' and run it on your browser.
 
 
 Unit Test cases run command:
@@ -30,6 +31,6 @@ UI Tests cases run command:
 
 
 In this Web application we have below screens and flows which are implemented.
-	We have 6 components in the application which is referring to one screen only to fetch the most popular artices.
-	In this screen we have dropdown at top right corner which shows us the articles for "Daily, Last week and Last month" news.
-	Select one of the dropdown value to see the respective news for each duration
+	* We have 6 components in the application which is referring to one screen only to fetch the most popular artices.
+	* In this screen we have dropdown at top right corner which shows us the articles for "Daily, Last week and Last month" news.
+	* Select one of the dropdown value to see the respective news for each duration

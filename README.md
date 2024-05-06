@@ -15,7 +15,7 @@ Application Run command:
 
 Unit Test cases run command:
 
-	JEST: We have used Jest to write our unit test cases which are available in the root folder with 'test' folder.
+	ViTest(Jest): We have used Jest to write our unit test cases which are available in the root folder with 'test' folder.
 		* In order to run unit test cases, Open Terminal and run "npm run test".
 		* Now we can see the result of all test cases.
 		

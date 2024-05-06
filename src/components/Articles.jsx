@@ -3,7 +3,7 @@ import ArticleItem from "./ArticleItem.jsx";
 import ArticleContext from "../store/ArticleContext";
 import Error from "./Error.jsx";
 import { useContext } from "react";
-import { key } from "../utils/env.js";
+import { secretKey } from "../utils/env.js";
 
 /**
  * Articles Component
@@ -28,7 +28,7 @@ const Articles = () => {
       try {
         setIsLoading(true);
         const response = await fetch(
-          `https://api.nytimes.com/svc/mostpopular/v2/viewed/${durationId}.json?api-key=${key}`, { signal }
+          `https://api.nytimes.com/svc/mostpopular/v2/viewed/${durationId}.json?api-key=${secretKey}`, { signal }
         );
         if (!response.ok && response.status!==200) {
           setError({

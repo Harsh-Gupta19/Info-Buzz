@@ -22,7 +22,7 @@ const mockArticles = [mockArticle, mockArticle];
 
 describe('ArticleItem Component', () => {
   it('renders article items correctly', () => {
-    const { getAllByRole, getByAltText } = render(<ArticleItem isLoading={false} articles={mockArticles} />);
+    const { getAllByRole } = render(<ArticleItem isLoading={false} articles={mockArticles} />);
     const articleItems = getAllByRole('listitem');
     expect(articleItems).toHaveLength(mockArticles.length);
 

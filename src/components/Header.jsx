@@ -12,28 +12,17 @@ import { useContext, useState } from "react";
 
 const Header = () => {
 
-    const [time, setTime] = useState('Trending')
+    const [timeline, setTimeline] = useState('Trending')
     const articleCtx = useContext(ArticleContext);
     const handleDropDownChange = (event) => {
         articleCtx.changeDuration(event.target.value);
         fetchSubHeader(event.target.value);
     }
     const fetchSubHeader = (val) => {
-        console.log(val)
-        let duration;
-        switch (val) {
-            case '1':
-                duration = 'Trending'
-                break;
-            case '7':
-                duration = 'Last Week'
-                break;
-            default:
-                duration = 'Last month'
-        }
-        console
-        setTime(duration);
+        let duration = dropDownData.find((item)=> item.id === val);
+        setTimeline(duration.value);
     }
+
     return (
         <>
             <header id="main-header">
@@ -49,7 +38,7 @@ const Header = () => {
                 </div>
             </header>
             <div className="sub-header">
-                <h2>{time}</h2>
+                <h2>{timeline}</h2>
                 <hr className="span-line" />
             </div>
         </>

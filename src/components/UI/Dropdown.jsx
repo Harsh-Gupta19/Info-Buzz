@@ -11,7 +11,7 @@
 const Dropdown = ({data, ...props}) => {
     return (
         <select {...props}>
-            {data.map((item)=> <option dropdown={`option-${item.id}`} key={item.id} value={item.id}>{item.value}</option>)}
+            {data.map((item)=> <option dropdown={`option-${item.id}`} key={`option-${item.id}`} value={item.id}>{item.value}</option>)}
         </select>
     )
 }

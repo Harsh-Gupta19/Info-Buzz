@@ -16,7 +16,7 @@ const ArticleItem = ({ isLoading, articles }) => {
   const getListItem = (articles) => {
     return articles.map((article) => {
       const metaMedia = article?.media[0]?.[`media-metadata`];
-      const caption =  article.media && article?.media[0]?.caption? article?.media[0].caption : "Testing";
+      const caption =  article.media && article?.media[0]?.caption ? article?.media[0].caption : "Testing";
       let image =
         (metaMedia && metaMedia.find((e) => e.height > 200)?.url) || LogoImg;
       return (

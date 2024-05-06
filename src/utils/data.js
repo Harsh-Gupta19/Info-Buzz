@@ -1,7 +1,7 @@
 export const dropDownData = [
     {
         id: "1",
-        value: "Today"
+        value: "Trending"
     },
     {
         id: "7",

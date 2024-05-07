@@ -25,19 +25,6 @@ body {
   align-items: center;
 }
 
-#main-header #title img {
-  width: 4rem;
-  height: 4rem;
-  object-fit: contain;
-  border-radius: 50%;
-  border: 2px solid #333;
-}
-
-#main-header button {
-  font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
-}
-
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -56,14 +43,6 @@ h1 {
   color: #333;
 }
 
-.control,
-fieldset {
-  margin-bottom: 1rem;
-}
-
-.control.no-margin {
-  margin-bottom: 0;
-}
 .control select {
   display: block;
   width: 100%;
@@ -137,92 +116,10 @@ fieldset {
   text-align: flex-start;
 }
 
-.article-item-price {
-  display: inline-block;
-  background-color: #312c1d;
-  color: #ffc404;
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 0.5rem 2rem;
-  margin: 0;
-  border-radius: 4px;
-}
-
-.article-item-actions {
-  margin-bottom: 1.5rem;
-}
-
-.modal-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-}
-
-.modal-actions .text-button {
-  color: #1d1a16;
-}
-
-.modal-actions .text-button:hover,
-.modal-actions .text-button:active {
-  color: #312c1d;
-}
-
-.control {
-  margin: 0.5rem 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.control label {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.control input {
-  width: 100%;
-  max-width: 20rem;
-  font: inherit;
-  padding: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-.control-row {
-  display: flex;
-  justify-content: flex-start;
-  gap: 1rem;
-}
-
-.modal {
-  background-color: #e4ddd4;
-  border-radius: 6px;
-  border: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-  padding: 1rem;
-  width: 80%;
-  max-width: 40rem;
-  animation: fade-slide-up 0.3s ease-out forwards;
-}
-
-.modal::backdrop {
-  background-color: rgba(0, 0, 0, 0.55);
-}
-
-#confirmation-actions {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-}
-
 .error {
   max-width: 40rem;
   margin: 1rem auto;
   padding: 1rem;
   background-color: #f4c7c7;
   color: #3e0505;
-}
-
-.modal .error {
-  margin: auto;
 }

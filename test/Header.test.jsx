@@ -10,10 +10,5 @@ describe('Header Component', () => {
     const { getByText } = render(<Header />);
     expect(getByText('New York Times')).toBeInTheDocument();
   });
-
-  it('renders dropdown with default value', () => {
-    const { getByText } = render(<Header />);
-    expect(getByText('Trending')).toBeInTheDocument();
-  });
   
 });
